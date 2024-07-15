@@ -87,10 +87,69 @@ background-color: rgba(255, 144, 14, 0.1);
   width: 100%;
 }
 
+
+
+/* section 2 design here */
+
+.main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+ 
+main > section{
+  margin-top: 130px;
+}
+.team-section{
+  align-items: center;
+}
+
+.team-img-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin: 100px;
+  margin-top: -70px;
+  
+}
+
+.features-text-section{
+  max-width: 530px;
+}
+
+.features-title{
+  font-size: 45px;
+font-weight: 700;
+}
+
+.features-description{
+  font-size: 16px;
+font-weight: 400;
+margin-bottom: 49px;
+color:#727272;
+}
+
+
+#quick-list-02{
+  color: #FF900E;
+}
+
+#quick-list-01{
+  font-weight: 500 ;
+}
+
 /* responsive media query */
 
 @media screen and (max-width:576px) {
-.navbar .nav-links{
+.navbar 
+.nav-links
+.team-section {
   flex-direction: column;
 }
+
+.team-img-container{
+  grid-template-columns:  repeat(1, 1fr);
 }
+
+}
+
+
